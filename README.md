@@ -1,2 +1,35 @@
-# auth-dashboard
-A full-stack web application featuring JWT authentication, protected routes, and a task management dashboard. Built with React (Vite) on the frontend and Node.js/Express with MongoDB on the backend. Designed as a frontend developer assessment project with clean UI and scalable structure.
+# Frontend Auth Dashboard
+
+A full-stack web application built as part of a frontend developer assessment.  
+The project demonstrates authentication, protected routing, and basic CRUD operations with a clean and responsive UI.
+
+---
+
+## 🚀 Tech Stack
+
+**Frontend**
+- React (Vite)
+- JavaScript
+- CSS
+
+**Backend**
+- Node.js
+- Express.js
+- MongoDB (Atlas)
+- JWT Authentication
+
+---
+
+## ✨ Features
+
+- User login with JWT-based authentication
+- Protected dashboard route
+- Add and delete tasks (CRUD operations)
+- Logout functionality
+- Secure password hashing
+- Clean, centered, and responsive UI
+
+---
+
+## 📁 Project Structure
+
