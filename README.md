@@ -32,4 +32,17 @@ The project demonstrates authentication, protected routing, and basic CRUD opera
 ---
 
 ## 📁 Project Structure
+## 🔗 API Endpoints
+
+- POST `/login` – User login
+- GET `/tasks` – Fetch tasks (protected)
+- POST `/tasks` – Add task
+- DELETE `/tasks/:id` – Delete task
+## 📈 Scalability Note
+
+For production scaling, the frontend and backend would be deployed separately.
+API requests would be handled through a secure gateway, JWT tokens stored securely,
+and database access restricted by IP and role-based access. The application can be
+scaled horizontally using containerization and cloud services.
+
 
